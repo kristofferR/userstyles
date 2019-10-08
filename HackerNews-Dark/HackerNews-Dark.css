@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           Hacker News Dark
+@namespace      github.com/kristofferR/something
+@version        1.0.0
+@description    Hacker News for Dark Mode
+@author         Many
+==/UserStyle== */
+
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("news.ycombinator.com") {
 
