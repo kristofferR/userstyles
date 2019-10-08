@@ -1,0 +1,71 @@
+/* ==UserStyle==
+@name           Hacker News Dark
+@author         Many people, including kristofferR
+@namespace      kristofferR
+@homepageURL    https://github.com/kristofferR/userstyles/tree/master/HackerNews-Dark
+@supportURL     https://github.com/kristofferR/userstyles/tree/master/HackerNews-Dark/issues
+@updateURL      https://raw.githubusercontent.com/kristofferR/userstyles/master/HackerNews-Dark/HackerNews-Dark.user.css
+@version        1.0.0
+@description    Hacker News for Dark Mode
+@license    Nada
+==/UserStyle== */
+
+@-moz-document domain("news.ycombinator.com") {
+
+    body {
+        background-color: #262626 !important;
+    }
+
+    body>center>table,
+    input,
+    textarea {
+        background-color: #222 !important;
+    }
+
+    body>center>table>tbody>tr:first-child>td {
+        background-color: #ff6600 !important;
+    }
+
+    /* Bright text */
+    td.title a:link,
+    span.comment font,
+    span.comment font a:link,
+    u a:link,
+    span.yclinks a:link,
+    body:not([id]),
+    td:nth-child(2):not(.subtext)>a:link,
+    input,
+    textarea,
+    p>a,
+    a>u,
+    .c00,
+    .c00 a:link,
+    a[href="http://www.ycombinator.com/apply/"],
+    a[href="https://www.ycombinator.com/apply/"] {
+        color: #ccc !important;
+    }
+
+    .admin td {
+        color: #aaa !important;
+    }
+
+    /* search box and comment box */
+    input,
+    textarea {
+        border: 1px solid #828282 !important;
+    }
+
+    /* upvote */
+    .votearrow {
+        width: 0;
+        height: 0;
+        border-left: 4px inset transparent;
+        border-right: 4px inset transparent;
+        border-bottom: 6px solid #ff6600;
+        margin: 6px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        margin-left: 2px;
+        background-image: none;
+    }
+}
