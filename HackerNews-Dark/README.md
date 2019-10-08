@@ -14,4 +14,4 @@ A userstyle extension is required:
 
 Then:
 
-📦 [Install the usercss](https://github.com/kristofferR/userstyles/blob/master/HackerNews-Dark/HackerNews-Dark.css). It supports automatic updates.
+📦 [Install the usercss](https://raw.githubusercontent.com/kristofferR/userstyles/master/HackerNews-Dark/HackerNews-Dark.css). It supports automatic updates.
