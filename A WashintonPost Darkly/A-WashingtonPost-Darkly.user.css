@@ -8,7 +8,7 @@
 @updateURL      https://github.com/kristofferR/userstyles/raw/master/A-WashingtonPost-Darkly/A-WashingtonPost-Darkly.user.css
 ==/UserStyle== */
 
-@-moz-document domain("washingtonpost.com")
+@-moz-document domain("washingtonpost.com") {
 
 :root {
     --fg: #ccc;
@@ -790,4 +790,5 @@ div[style*="avatar-default.png"],
 .talk-stream-comment:not(.talk-stream-comment-level-0) {
     border-bottom: solid 0.5px rgba(255, 255, 255, 0.1);
     border-top: transparent
+}
 }
