@@ -5,7 +5,11 @@
 @description    a dark facebook skin
 @author         Kassh
 @license        CC-BY-SA
+@homepageURL    https://github.com/kristofferR/userstyles/tree/master/darkBook
+@updateURL      https://raw.githubusercontent.com/kristofferR/userstyles/master/darkBook/darkBook.user.css
 ==/UserStyle== */
+
+
 
 @-moz-document regexp("https://www\\.facebook\\.com/(?!help).*"),
 regexp("https://www\\.messenger\\.com/(?!help).*") {
